@@ -34,3 +34,14 @@ tree -L 4 | head -n 20
 │           ├── repNationCd=F
 │           └── repNationCd=K
 ```
+
+###
+```
+$ python3 -m venv localenv
+$ source localenv/bin/activate
+
+# pip freeze > requirements.txt
+(localenv) $ pip install -r requirements.txt
+
+
+```
